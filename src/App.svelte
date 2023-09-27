@@ -17,6 +17,7 @@
 
 	<div class="card">
 		<Counter />
+		<Counter />
 	</div>
 
 	<p>
