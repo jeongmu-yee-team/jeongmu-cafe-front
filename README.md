@@ -42,25 +42,27 @@ If you have state that's important to retain within a component, consider creati
 ```ts
 // store.ts
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+import { writable } from 'svelte/store';
+export default writable(0);
 ```
 
 <br />
 
 ## Debug Project
 
-### Recommand Install [nvm](https://github.com/nvm-sh/nvm)
+### Recommand Install [nvm for Windows](https://github.com/coreybutler/nvm-windows), [Linux or MacOS](https://github.com/nvm-sh/nvm)
 
-install NodeJS with nvm.  
+install NodeJS with nvm.
+
 ```js
 nvm install {Node Version} // Current Project Node Version
 nvm use {Node Version}
 ```
 
-Now, Install Dependencies & Run on your localhost.  
+Now, Install Dependencies & Run on your localhost.
 
 Install pnpm
+
 ```js
 npm install -g pnpm
 cd /d {Poject Path}
