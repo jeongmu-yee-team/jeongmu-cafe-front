@@ -37,14 +37,6 @@
 	];
 </script>
 
-<style>
-	h3 {
-		overflow: hidden;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-	}
-</style>
-
 <div class="card-display bg-white">
 	<div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 		<h2 class="sr-only">Products</h2>
@@ -65,7 +57,7 @@
 									class="h-full w-full object-cover object-center group-hover:opacity-75"
 								/>
 							</div>
-							<h3 class="mt-4 text-lg font-bold text-gray-700">{product.name}</h3>
+							<h3 class="mt-4 text-lg font-bold text-gray-700 overflow-hidden whitespace-nowrap text-ellipsis">{product.name}</h3>
 							<p class="mt-1 font-semibold text-orange-600">{product.price}원</p>
 						</a>
 					</PrimaryAction>
