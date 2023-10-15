@@ -1,8 +1,8 @@
 import './app.css';
-import App from './App.svelte';
+import Window from './Window.svelte';
 
-const app = new App({
-	target: document.getElementById('app') as Element,
+const window = new Window({
+	target: document.getElementById('window') as Element,
 });
 
-export default app;
+export default window;
