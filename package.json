@@ -35,5 +35,10 @@
 	},
 	"engines": {
 		"node": "^18.5.0"
+	},
+	"dependencies": {
+		"@smui/tab": "^7.0.0-beta.15",
+		"@smui/tab-bar": "^7.0.0-beta.15",
+		"pnpm": "^8.9.0"
 	}
 }
