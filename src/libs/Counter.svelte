@@ -6,5 +6,5 @@
 </script>
 
 <button on:click={increment}>
-	Jungmu count is {count}
+	Jeongmu count is {count}
 </button>
